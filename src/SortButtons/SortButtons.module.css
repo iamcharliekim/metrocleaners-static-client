@@ -1,0 +1,121 @@
+.sort-buttons-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sort-buttons-inner-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sort-buttons-wrapper .sort-buttons-inner-wrapper .sort-button {
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 0;
+  cursor: pointer;
+  color: #011627;
+  background-color: white;
+}
+
+.sort-buttons-inner-wrapper .sort-button:hover {
+  background-color: #011627;
+  color: white;
+}
+
+.sort-buttons-inner-wrapper .active {
+  background-color: #011627;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #011627;
+  border-radius: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.sort-by-dropdown-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+  font-size: 14px;
+  height: 15px;
+}
+
+.sort-by-dropdown {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  margin-left: 5px;
+  background-color: white;
+}
+
+.sort-by-dropdown .select-active {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: #011627;
+  color: white;
+  font-size: 14px;
+}
+
+.select-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  /* border-bottom: 1px solid black; */
+}
+
+.dropdown-label {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.icon {
+  position: relative;
+  right: 10%;
+  font-size: 20px;
+}
+
+.sort-by-panel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  border-top: 1px solid lightgray;
+}
+
+.sort-by-div {
+  padding: 5px;
+  /* border-top: 1px solid black; */
+}
+.sort-by-div:hover {
+  background-color: #011627;
+  color: white;
+  border: 1px solid lightgray;
+}
+
+.sort-by-div-selected {
+  background-color: #011627;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border-top: 1px solid black;
+  font-size: 14px;
+}

@@ -1,0 +1,92 @@
+.create-game-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  max-width: 500px;
+  padding-bottom: 160px;
+}
+
+header {
+  padding: 0;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+form {
+  font-size: 18px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 0;
+  color: white;
+  padding-top: 0;
+}
+
+form h1 {
+  color: #011627;
+}
+
+.form-row {
+  font-size: 18px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+.form-row label {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.form-row input {
+  margin-top: 5px;
+  width: 95%;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.date-input {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 18px;
+}
+
+.btns-panel {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns-panel button {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  cursor: pointer;
+}
+
+.form-row .date-time-inputs-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form-row .date-time-inputs-wrapper input {
+  width: 95%;
+}
